@@ -9,10 +9,10 @@ mqtt_auth = {'username': "openhabian", 'password': None}
 
 ## set up logger:
 # log to console
-#logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # log to file
-logging.basicConfig(filename='/home/pi/mqtt_DHT22/mqtt_DHT22.log', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+#logging.basicConfig(filename='/home/pi/mqtt_DHT22/mqtt_DHT22.log', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 logging.debug("Logger initialized")
 
 ## sensor foo
